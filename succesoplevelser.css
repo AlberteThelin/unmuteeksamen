@@ -233,6 +233,104 @@ body{
     }
 
     
+    .succesoplevelsebillede{
+        margin-top: 20px;
+        width: 1900px;
+        height: 1100px;
+    }
+
+    .textcontainer{
+        position: absolute;
+        top: 80%;
+        margin-left: 50%;
+        margin-top: 150px;
+        transform: translate(-50%, -50%);
+        font-size: 70px;
+        color: #fff;
+
+    }
+
+    .smilfonden{
+        width: 30%;
+        margin-top: 90px;
+        margin-left: 200px;
+    }
+
+   .hsmil{
+    font-size: 30px;
+    margin-bottom: 23%;
+    margin-left: 5%;
+   }
+
+    .textsmil{
+
+       margin-right: 450px;
+       font-size: 30px;
+       margin-top: 10%;
+       width: 50%;
+       margin-left: -23%;
+   
+    
+    }
+
+    .realejendom{
+        width: 30%;
+        margin-right: 200px;
+        margin-top: 10%;
+    }
+
+    .hreal{
+        margin-top: 10%;
+        font-size: 30px;
+        margin-bottom: 25%;
+        margin-left: 10%;
+
+    }
+
+    .textreal{
+        margin-top: 10%;
+       font-size: 30px;
+       margin-top: 15%;
+       width: 50%;
+       margin-left: -30%;
+       padding-right: 10px;
+   
+    
+    }
+
+    .firstsectionomunmute{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #stylekontaktomunmute{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 45%;
+        padding: 5px;
+        width: 180px;
+        height: 30px;
+        border-radius: 8px;
+        background-color: #143785;
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 10%;
+    }
+
+       
+    
+    
+
+
+
+
+
+
+
 
 
     footer{
