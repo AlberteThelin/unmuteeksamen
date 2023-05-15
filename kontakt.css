@@ -214,7 +214,7 @@ body{
 
     #logo {
         margin-left: 25px;
-        width: 250px;
+        width: 200px;
 
      }
 
@@ -258,10 +258,13 @@ body{
       }
 
     .ulmenu {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        list-style-type: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      list-style-type: none;
+      margin-top: -0.5%;
+      margin-left: 8%;
+      font-size: 20px;
         
     }
 
@@ -285,7 +288,7 @@ body{
         height: 50px;
         border-radius: 15px;
         background-color: #143785;
-        
+        margin-top: -0.5%;
     }
 
     #buttonto {

@@ -25,6 +25,7 @@ body{
       }
     
     #logo {
+        margin-top: 5%;
         margin-left: 10px;
         width: 100px;
     }
@@ -395,7 +396,7 @@ body{
 
     #logo {
         margin-left: 25px;
-        width: 250px;
+        width: 200px;
 
      }
 
@@ -443,6 +444,9 @@ body{
         align-items: center;
         justify-content: center;
         list-style-type: none;
+        margin-top: -1%;
+        margin-left: 8%;
+        font-size: 20px;
         
     }
 
@@ -466,10 +470,11 @@ body{
         height: 50px;
         border-radius: 15px;
         background-color: #143785;
+        margin-top: -0.5%;
     }
 
     .foeside{
-        margin-top: 20px;
+      
         width: 1900px;
         height: 1100px;
     }
