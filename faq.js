@@ -6,8 +6,8 @@ function openAnswer(id){
 
     var img = document.getElementById("img" + id); //man henter img inde i html
     if(answer.classList.contains("answerSection")){ //hvis classlisten indholder answersection på answer, så vil den vise minus ikoner og hvis ikke vil den vise plus
-        img.src = "../assets/img/minus.svg";
+        img.src = "/unmuteeksamen/assets/minus.png";a
     }else {
-        img.src = "../assets/img/plus.svg";
+        img.src = "/unmuteeksamen/assets/add.png";
     }
 }

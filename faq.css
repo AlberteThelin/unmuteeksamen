@@ -383,6 +383,18 @@ body{
         width: 30%;
         margin-bottom: -3%;
     }
+
+
+    .questionSection img{
+        width: 5%;
+        height: 5%;
+        margin-top: 1%;
+    }
+
+    .questionSection{
+        width: 50%;
+
+    }
     
 
 }
