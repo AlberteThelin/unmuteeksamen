@@ -187,12 +187,18 @@ body{
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
         grid-gap: 5px; 
+        margin-top: 5%;
     
     }
     
     .someIcons{
         width: 30px;
         height: 30px;
+    }
+
+    #footerlogo{
+        width: 29%;
+        margin-bottom: -5%;
     }
 
 
@@ -414,6 +420,7 @@ body{
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
         grid-gap: 20px; 
+        margin-top: 1%;
     
     }
     
@@ -421,5 +428,12 @@ body{
         width: 60px;
         height: 60px;
     }
+
+
+    #footerlogo{
+        width: 29%;
+        margin-bottom: -5%;
+    }
+
 
     }

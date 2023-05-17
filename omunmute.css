@@ -238,16 +238,6 @@ body{
 
 }
 
-
-
-
-
-    
-
-
-
-
-
     footer{
         border-top: 4px solid #143785;
         display: flex;
@@ -263,12 +253,18 @@ body{
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
         grid-gap: 5px; 
+        margin-top: 5%;
     
     }
     
     .someIcons{
         width: 30px;
         height: 30px;
+    }
+
+    #footerlogo{
+        width: 29%;
+        margin-bottom: -5%;
     }
 
 
@@ -425,15 +421,15 @@ body{
     }
 
     .firstomunmute{
-        margin-left: 100px;
+        margin-left: 2%;
         font-size: 50px;
         margin-bottom: 20%;
-       margin-top: 8%;
+       margin-top: 4%;
     }
     .firstsectionomunmute p{
         margin-top: 8%;
         width: 50%;
-        margin-left: -15%;
+        margin-left: -17%;
         font-size: 25px;
         padding-right: 15%;
     
@@ -444,7 +440,7 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 46%;
+        margin-left: 45%;
         padding: 15px;
         width: 180px;
         height: 30px;
@@ -534,6 +530,7 @@ body{
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
         grid-gap: 20px; 
+        margin-top: 1%;
     
     }
     
@@ -556,6 +553,13 @@ body{
         text-decoration: none;
         font-size: 20px;
         font-weight: bold;
+    }
+
+
+    #footerlogo{
+        width: 30%;
+        margin-bottom: -3%;
+
     }
 
 
