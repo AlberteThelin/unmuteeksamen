@@ -81,7 +81,7 @@ body{
         background-color: #143785;
     }
 
-    #buttonto {
+    .buttonto {
         font-size: 18px;
         color: #fff;
         font-weight: bold;
@@ -287,7 +287,7 @@ body{
         
     }
 
-    #buttonto {
+    .buttonto {
         font-size: 28px;
         color: #fff;
         font-weight: bold;

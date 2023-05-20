@@ -80,7 +80,7 @@ body{
         background-color: #143785;
     }
 
-    #buttonto {
+    .buttonto {
         font-size: 18px;
         color: #fff;
         font-weight: bold;
@@ -163,7 +163,7 @@ body{
         font-size: 12px;
     }
    
-    #boxtillykke{
+    .boxtillykke{
         border-radius: 7px;
         padding: 5%;
         margin: 10%;
@@ -174,14 +174,14 @@ body{
         margin-bottom: -2%;
     }
     
-    #boxtillykke h4{
+    .boxtillykke h4{
         font-weight: 100;
         font-size: 15px;
         margin-top: -2%;
         text-align: center;
     }
     
-    #boxtillykke p{
+    .boxtillykke p{
         font-family: palatino;
         font-size: 10px;
         padding-right: 5%;
@@ -354,7 +354,7 @@ body{
         background-color: #143785;
     }
 
-    #buttonto {
+    .buttonto {
         font-size: 28px;
         color: #fff;
         font-weight: bold;
@@ -438,7 +438,7 @@ body{
         font-size: 20px;
     }
    
-    #boxtillykke{
+    .boxtillykke{
         border-radius: 7px;
         padding: 5%;
         margin: 10%;
@@ -449,14 +449,14 @@ body{
         margin-bottom: -2%;
     }
     
-    #boxtillykke h4{
+    .boxtillykke h4{
         font-weight: 100;
         font-size: 35px;
         margin-top: -2%;
         text-align: center;
     }
     
-    #boxtillykke p{
+    .boxtillykke p{
         font-family: palatino;
         font-size: 20px;
         padding-right: 15%;
