@@ -9,6 +9,8 @@ body{
         display: none;
     }
 
+    /* style til header */
+
     .box1 {
         display: none;
     }
@@ -87,6 +89,8 @@ body{
         text-decoration: none;
     }
 
+ /* style til billeder + tekst */
+
     .firstsectionbaeredygtighed h1{
         text-align: center;
         font-size: 25px;
@@ -143,7 +147,7 @@ body{
     }
 
 
-
+ /* style til knap */
 
     #unmutemere{
         display: flex;
@@ -163,14 +167,7 @@ body{
         margin-top: 15%;
     }
 
-
-
-
-
-
-
-
-
+ /* style til footer */
 
     footer{
         border-top: 4px solid #143785;
@@ -209,6 +206,9 @@ body{
     .burger {
         display: none;
     }
+
+     /* style til header */
+
     .boxtomobil {
         display: none;
     }
@@ -244,7 +244,6 @@ body{
 
      }
 
-     /* Inspireret af chatgpt */
     .box1 {
         margin-left: 10px;
         padding: 5px;
@@ -325,6 +324,9 @@ body{
         font-size: 28px;
     }
 
+
+ /* style til billeder + tekst */
+
     .firstsectionbaeredygtighed h1{
         text-align: center;
         font-size: 70px;
@@ -379,8 +381,7 @@ body{
         
     }
 
-
-
+ /* style til knap */
 
 
     #unmutemere{
@@ -401,10 +402,7 @@ body{
         margin-top: 10%;
     }
 
-
-    
-
-
+ /* style til footer */
 
     footer{
         border-top: 4px solid #143785;

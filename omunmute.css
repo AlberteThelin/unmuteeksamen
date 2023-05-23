@@ -9,6 +9,8 @@ body{
         display: none;
     }
 
+/* style til header */
+
     .box1 {
         display: none;
     }
@@ -87,6 +89,8 @@ body{
         text-decoration: none;
     }
 
+        
+ /* style til forsidebillede + tekst */
 
     .forsideomunmute{
         width: 100%;
@@ -106,7 +110,7 @@ body{
 
     }
 
-
+/* style til section 1 med billede + tekst + knap*/
 
     .jb{
         width: 160px;
@@ -158,6 +162,7 @@ body{
     }
 
 
+/* style til section 2 med billede + tekst + knap*/
 
     .secondsectionomunmute{
         display: flex;
@@ -201,6 +206,7 @@ body{
     
    }
     
+/* style til hvordan bestiller du en unmute section*/
 
    .sectiontreomunmute h3{
     text-align: center;
@@ -237,6 +243,9 @@ body{
     font-weight: bold;
 
 }
+
+
+/* style til footer*/
 
     footer{
         border-top: 4px solid #143785;
@@ -275,6 +284,9 @@ body{
     .burger {
         display: none;
     }
+
+    /* style til header */
+
     .boxtomobil {
         display: none;
     }
@@ -310,7 +322,6 @@ body{
 
      }
 
-     /* Inspireret af chatgpt */
     .box1 {
         margin-left: 10px;
         padding: 5px;
@@ -391,6 +402,8 @@ body{
         text-decoration: none;
     }
 
+     /* style til forsidebillede + tekst */
+
     .forsideomunmute{
         width: 100%;
     }
@@ -407,6 +420,8 @@ body{
        
 
     }
+
+    /* style til section 1 med billede + tekst + knap*/
 
     .jb{
         margin-left: 200px;
@@ -458,6 +473,7 @@ body{
     
     }
 
+    /* style til section 2 med billede + tekst + knap*/
 
 
     .secondsectionomunmute{
@@ -500,6 +516,8 @@ body{
     margin-left: 10%;
     
    }
+
+   /* style til hvordan bestiller du en unmute section*/
     
     .sectiontreomunmute h3{
         text-align: center;
@@ -514,6 +532,24 @@ body{
         font-size: 40px;
         margin-top: -2%;
     }
+
+    #stylekontaktomunmute{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 45%;
+        padding: 5px;
+        width: 180px;
+        height: 30px;
+        border-radius: 8px;
+        background-color: #143785;
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    /* style til footer*/
 
 
     footer{
@@ -537,22 +573,6 @@ body{
     .someIcons{
         width: 60px;
         height: 60px;
-    }
-
-    #stylekontaktomunmute{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: 45%;
-        padding: 5px;
-        width: 180px;
-        height: 30px;
-        border-radius: 8px;
-        background-color: #143785;
-        color: white;
-        text-decoration: none;
-        font-size: 20px;
-        font-weight: bold;
     }
 
 

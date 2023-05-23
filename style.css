@@ -8,6 +8,7 @@ body{
     .kontaktheader {
         display: none;
     }
+/* style til header */
 
     .box1 {
         display: none;
@@ -87,13 +88,14 @@ body{
         text-decoration: none;
     }
 
+    
+ /* style til forsidebillede + tekst */
 
     .foeside{
         width: 100%;
     }
 
-
-          
+      
     .textcontainer{
         position: absolute;
         margin-left: 34%;
@@ -105,6 +107,8 @@ body{
        
 
     }
+
+/* style til anden section med tekst og knap */ 
 
     .firstsection{
         text-align: center;
@@ -142,6 +146,7 @@ body{
     
     }
 
+ /* Style til instagram section */
 
     #instagramsection{
         text-align: center;
@@ -162,6 +167,7 @@ body{
     height: 8vw;
 }
 
+
 .alignpics{
     display: flex;
     flex-wrap: wrap;
@@ -175,6 +181,10 @@ body{
     width: 100px;
     height: 100px;
 }
+
+
+
+ /* style til udtalelser - billederne */
 
 .alignudtagelser{
     display: flex;
@@ -212,6 +222,8 @@ body{
 
 }
 
+ /* style til section med anmeldelser og nyhedsbrev */
+
 .alignnews{
     display: flex;
     flex-wrap: wrap;
@@ -226,6 +238,9 @@ body{
     margin: 0 10px;
     justify-content: center;
 }
+
+
+ /* style til bæredygtigheds section*/
 
 
 .alignbaere{
@@ -261,7 +276,10 @@ body{
     text-align: center;
     font-size: 15px;
 }
-        
+
+/* style til kontakt section*/
+/* skabelonen til hvordan kontakt formularen ser ud, er taget fra et andet projekt*/
+
 
 #kontakttext{
     font-size: 25px;
@@ -325,16 +343,7 @@ body{
     font-size: 20px;
   }
  
-
-
-
-    .first-section {
-        position: absolute;
-        left: 16px;
-        top: 20%;
-        font-size: 16px;
-        color: white;
-    }
+/* style til footeren*/
 
     footer{
         border-top: 4px solid #143785;
@@ -374,6 +383,9 @@ body{
     .burger {
         display: none;
     }
+
+    /* style til header */
+
     .boxtomobil {
         display: none;
     }
@@ -409,7 +421,6 @@ body{
 
      }
 
-     /* Inspireret af chatgpt */
     .box1 {
         margin-left: 10px;
         padding: 5px;
@@ -482,6 +493,8 @@ body{
         margin-top: -0.5%;
     }
 
+    /* style til forsidebillede + tekst */
+
     .foeside{
       
         width: 1800px;
@@ -506,6 +519,7 @@ body{
 
     }
   
+/* style til anden section med tekst og knap */ 
 
     .firsttext{
         font-size: 80px;
@@ -541,6 +555,8 @@ body{
     
     }
 
+ /* Style til instagram section */
+
     #instagramsection{
         text-align: center;
         margin-top: 15%;
@@ -567,6 +583,9 @@ body{
     margin: 0 10px;
     align-items: center;
 }
+
+
+ /* style til udtalelser - billederne */
 
 .alignudtagelser{
     display: flex;
@@ -599,6 +618,8 @@ body{
 
 }
 
+ /* style til section med anmeldelser og nyhedsbrev */
+
 .alignnews{
     display: flex;
     flex-wrap: wrap;
@@ -614,6 +635,7 @@ body{
     justify-content: center;
 }
 
+ /* style til bæredygtigheds section*/
 
 .alignbaere{
     display: flex;
@@ -647,6 +669,9 @@ body{
     text-align: center;
     font-size: 40px;
 }
+
+/* style til kontakt section*/
+/* skabelonen til hvordan kontakt formularen ser ud, er taget fra et andet projekt*/
 
 #kontakttext{
     font-size: 40px;
@@ -709,6 +734,9 @@ body{
     height: 50px;
     font-size: 20px;
   }
+
+  /* style til footeren*/
+
 
 footer{
     border-top: 4px solid #143785;

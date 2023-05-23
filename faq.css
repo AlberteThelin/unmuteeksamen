@@ -9,6 +9,8 @@ body{
         display: none;
     }
 
+/* style til header */
+
     .box1 {
         display: none;
     }
@@ -88,6 +90,9 @@ body{
         text-decoration: none;
     }
 
+/* style til faq section - spørgsmål + svar*/
+/* skabelonen til hvordan formularen ser ud, er taget fra et tidligere projekt*/
+
 
     .faqSection h1{
         font-size: 25px;
@@ -140,6 +145,7 @@ body{
         display: none;
     }
     
+/* style til footer*/
 
   footer{
     border-top: 4px solid #143785;
@@ -178,6 +184,9 @@ body{
     .burger {
         display: none;
     }
+
+ /* Style til header */
+
     .boxtomobil {
         display: none;
     }
@@ -213,7 +222,6 @@ body{
 
      }
 
-     /* Inspireret af chatgpt */
     .box1 {
         margin-left: 10px;
         padding: 5px;
@@ -294,7 +302,8 @@ body{
         text-decoration: none;
     }
 
-
+/* style til faq section - spørgsmål + svar*/
+/* skabelonen til hvordan formularen ser ud, er taget fra et tidligere projekt*/
 
 
     .faqSection h1{
@@ -351,11 +360,9 @@ body{
 
 
 
+ /* Style til footer */
 
-
-    
-
-    
+ 
     footer{
         border-top: 4px solid #143785;
         display: flex;

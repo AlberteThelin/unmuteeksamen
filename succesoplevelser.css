@@ -9,6 +9,8 @@ body{
         display: none;
     }
 
+/* style til header */
+
     .box1 {
         display: none;
     }
@@ -87,7 +89,7 @@ body{
         text-decoration: none;
     }
 
-
+ /* style til forsidebillede + tekst */
 
     .succesoplevelsebillede{
         width: 100%;
@@ -104,6 +106,8 @@ body{
         text-align: center;
 
     }
+
+/* style til smilfonden section med tekst + billede */
 
     .smilfonden{
         width: 160px;
@@ -124,6 +128,8 @@ body{
        margin-top: 30%;
        margin-left: -25%;
     }
+
+/* style til realmæglerne section med tekst + billede */
 
     .realejendom{
         width: 160px;
@@ -155,6 +161,8 @@ body{
         align-items: center;
     }
 
+   /* style til kontakt knap */ 
+
     #stylekontaktomunmute{
         display: flex;
         justify-content: center;
@@ -174,7 +182,7 @@ body{
     }
 
        
-
+/* style til footer */
 
     footer{
         border-top: 4px solid #143785;
@@ -214,6 +222,9 @@ body{
     .burger {
         display: none;
     }
+
+       /* style til header */
+
     .boxtomobil {
         display: none;
     }
@@ -249,7 +260,6 @@ body{
 
      }
 
-     /* Inspireret af chatgpt */
     .box1 {
         margin-left: 10px;
         padding: 5px;
@@ -330,6 +340,8 @@ body{
     }
 
     
+/* style til forsidebillede + tekst */
+    
     .succesoplevelsebillede{
         width: 1800px;
         height: 1100px;
@@ -345,6 +357,8 @@ body{
         color: #fff;
 
     }
+
+ /* style til smilfonden section med tekst + billede */
 
     .smilfonden{
         width: 30%;
@@ -368,6 +382,8 @@ body{
    
     
     }
+
+  /* style til realmæglerne section med tekst + billede */  
 
     .realejendom{
         width: 30%;
@@ -400,6 +416,8 @@ body{
         align-items: center;
     }
 
+/* style til kontakt knap */ 
+
     #stylekontaktomunmute{
         display: flex;
         justify-content: center;
@@ -419,7 +437,7 @@ body{
 
 
        
-    
+/* style til footer */   
     
     footer{
         border-top: 4px solid #143785;
