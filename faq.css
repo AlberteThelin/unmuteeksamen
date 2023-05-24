@@ -32,44 +32,63 @@ body{
         margin-top: 7%;
     }
 
-    .burger {
-        margin-right: 10px;
-        justify-content: right;
-        background-color: transparent;
-        display: block;
-        border: 0;
-
-    }
-
-    .burgerline {
-        width: 40px;
-        height: 5px;
-        background-color:#999;
-        margin-top: 5px;
-    }
-
-    .ulmenu {
-    display: none;
-    width: 100%;
+  /* style til burgermenu */   
+ 
+  .burger {
+    margin-right: 10px;
     justify-content: right;
-    flex-direction: column;
-    align-items: flex-end;
-    list-style:none;
-    }
+    background-color: transparent;
+    display: block;
+    border: 0;
 
-    .ulmenu li a {
-        display: inline-block;
-        text-decoration: none;
-        font-weight: bold;
-        color: black;
-        margin-right: 1rem;
-        margin-bottom: 10px;
-        width: 100%;
-    }
+}
 
-    .ulmenu.show {
-        display: flex;
-    }
+.burgerline {
+    width: 40px;
+    height: 5px;
+    background-color:black;
+    margin-top: 5px;
+}
+
+.ulmenu {
+display: none;
+width: 100%;
+justify-content: right;
+flex-direction: column;
+align-items: flex-end;
+list-style:none;
+}
+
+.ulmenu li a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    margin-right: 1rem;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.ulmenu.show {
+    display: flex;
+}
+
+.dropdowninspiration:hover .dropdownsucces {
+display: block;
+}
+
+.dropdownsucces {
+display: none;
+}
+
+.dropdownsucces a {
+display: block;
+padding: 12px 16px;
+text-decoration: none;
+font-weight: bold;
+color: black;
+}
+
 
     .boxtomobil {
         display: flex;
@@ -118,7 +137,10 @@ body{
     }
     
     .questionSection img{
-        width: 7%;
+        width: 12%;
+        height: 12%;
+        margin-top: 5%;
+       
     }
     
     .questionSection p{
@@ -300,6 +322,28 @@ body{
         color: #fff;
         font-weight: bold;
         text-decoration: none;
+    }
+
+    /* drop down menu styling */
+
+    .dropdownsucces {
+        display: none;
+        position: absolute;
+        background-color: none;
+        min-width: 160px;
+        
+       
+    }
+    
+    .dropdownsucces a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .dropdowninspiration:hover .dropdownsucces {
+        display: block;
     }
 
 /* style til faq section - spørgsmål + svar*/
