@@ -358,35 +358,41 @@ color: black;
     #kontakttext{
         font-size: 40px;
         text-align: center;
+        font-family: seravek;
     }
     
     #kontakttextunder{
         margin-top: -2%;
         font-size: 20px;
         text-align: center;
+        font-family: seravek;
     }
     
     #kontaktexttre{
         margin-top: -1%;
-        font-size: 15px;
+        font-size: 18px;
         text-align: center;
+        font-family: seravek;
     
     }
     
     .kontaktsection{
         background-color: #C2DCF2;
         padding: 5%;
-        margin-top: 10% !important;
+        margin-top: 5% !important;
         margin: 5%;
         border-radius: 7px;
         border: solid black;
         border-width: 2px;
+        width: 70%;
+        margin-left: 10%;
+  
       }
     
     .contactForm{
         display: flex;
         flex-direction: column;
-        font-family: Cormorant;
+        font-family: palatino;
         font-size: 20px;
       }
     
@@ -399,22 +405,28 @@ color: black;
         border-radius: 7px;
         border-color: black;
         border-width: 1px;
+
       }
       .contactForm textarea{
         border-radius: 7px;
         border-color: black;
         border-width: 1px;
+
         
       }
       
       .contactForm .btn{
+     
+        margin-top: 4%;
+        height: 50px;
+        font-size: 25px;
+        font-family: palatino;
+        width: 15%;
         margin-left: auto;
         margin-right: auto;
-        padding-left: 10%;
-        padding-right: 10%;
-        margin-top: 2%;
-        height: 50px;
-        font-size: 20px;
+    
+      
+
       }
       
 

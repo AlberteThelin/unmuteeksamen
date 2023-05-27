@@ -186,6 +186,10 @@ body{
     
     }
 
+    .plastixtext{
+        color:black;
+    }
+
 
 /* style til section 2 med billede + tekst + knap*/
 
@@ -497,6 +501,10 @@ body{
     
     }
 
+    .plastixtext{
+        color:black;
+    }
+
 
     .buttonhvaderunmutesucces{
         display: flex;
@@ -584,15 +592,15 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 45%;
+        margin-left: 44%;
         padding: 5px;
-        width: 180px;
-        height: 30px;
+        width: 200px;
+        height: 45px;
         border-radius: 8px;
         background-color: #143785;
         color: white;
         text-decoration: none;
-        font-size: 20px;
+        font-size: 25px;
         font-weight: bold;
     }
 

@@ -166,6 +166,10 @@ color: black;
         
     }
 
+    .climaaidertext{
+        color: black;
+    }
+
 
  /* style til knap */
 
@@ -422,6 +426,10 @@ color: black;
         
     }
 
+    .climaaidertext{
+        color: black;
+    }
+
  /* style til knap */
 
 
@@ -429,18 +437,17 @@ color: black;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 43%;
-        margin-right: 25px;
+        margin-left: 44%;
         padding: 5px;
-        width: 200px;
-        height: 50px;
+        width: 220px;
+        height: 60px;
         border-radius: 15px;
         background-color: #143785;
         text-decoration: none;
         color: white;
         font-weight: bold;
-        font-size: 22px;
-        margin-top: 10%;
+        font-size: 31px;
+        margin-top: 5%;
     }
 
  /* style til footer */
