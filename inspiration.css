@@ -56,6 +56,7 @@ body{
     flex-direction: column;
     align-items: flex-end;
     list-style:none;
+    font-family: seravek;
     }
 
     .ulmenu li a {
@@ -98,6 +99,7 @@ body{
         height: auto;
         border-radius: 15px;
         background-color: #143785;
+        font-family: palatino;
     }
 
     .buttonto {
@@ -126,6 +128,7 @@ body{
         font-size: 10px;
         color: #fff;
         margin-top: -110%;
+        font-family: seravek;
 
     }
 
@@ -135,6 +138,7 @@ body{
         display: flex;
         flex-direction: row;
         align-items: center;
+        font-family: palatino;
     }
 
 
@@ -187,12 +191,15 @@ body{
         text-align: center;
         margin-top: 15%;
         font-size: 20px;
+        font-family: seravek;
     }
 
     .textsection h3{
         margin-top: -3%;
         text-align: center;
         font-size: 12px;
+        font-family: palatino;
+        font-weight: normal;
     }
    
     .boxtillykke{
@@ -205,6 +212,7 @@ body{
         margin-right: 15%;
         margin-bottom: -2%;
         border-style: double;
+       
     }
     
     .boxtillykke h4{
@@ -212,6 +220,9 @@ body{
         font-size: 15px;
         margin-top: -2%;
         text-align: center;
+        font-family: seravek;
+        font-weight: 300;
+        
     }
     
     .boxtillykke p{
@@ -220,6 +231,7 @@ body{
         padding-right: 5%;
         padding-left: 5%;
         text-align: center;
+        font-family: palatino;
     }
 
     #stylekontaktomunmute{
@@ -237,6 +249,7 @@ body{
         font-size: 18px;
         font-weight: bold;
         margin-top: 8%;
+        font-family: palatino;
     }
 
     /* style til footer */
@@ -249,6 +262,7 @@ body{
         padding-bottom: 2%;
         margin-top: 10%;
         font-size: 10px;
+        font-family: palatino;
     }
     
     #someSectionone{
@@ -347,6 +361,7 @@ body{
         background-color: #e2dede;
         position: absolute;
         z-index: 1;
+        font-family: palatino;
       }
       
     .button1.business {
@@ -354,6 +369,7 @@ body{
         background-color: #979393;
         position: absolute;
         margin-left: 110px;
+        font-family: palatino;
       }
 
     .ulmenu {
@@ -373,7 +389,12 @@ body{
         font-weight: bold;
         text-decoration: none;
         margin-right: 1rem;
+        font-family: seravek;
 
+    }
+
+    .ulmenu li a.inspiration{
+        color: #143785;
     }
 
     .boxtodesktop {
@@ -387,6 +408,7 @@ body{
         height: 50px;
         border-radius: 15px;
         background-color: #143785;
+        font-family: palatino;
     }
 
     .buttonto {
@@ -433,6 +455,7 @@ body{
         transform: translate(-50%, -50%);
         font-size: 50px;
         color: #fff;
+        font-family: seravek;
 
     }
 
@@ -442,6 +465,7 @@ body{
         display: flex;
         flex-direction: row;
         align-items: center;
+        font-family: palatino;
     }
 
 
@@ -494,12 +518,15 @@ body{
         text-align: center;
         margin-top: 15%;
         font-size: 45px;
+        font-family: seravek;
     }
 
     .textsection h3{
         margin-top: -1%;
         text-align: center;
         font-size: 20px;
+        font-family: palatino;
+        font-weight: normal;
     }
    
     .boxtillykke{
@@ -521,6 +548,8 @@ body{
         font-size: 35px;
         margin-top: -2%;
         text-align: center;
+        font-family: seravek;
+        font-weight: 300;
     }
     
     .boxtillykke p{
@@ -529,6 +558,7 @@ body{
         padding-right: 15%;
         padding-left: 15%;
         text-align: center;
+        font-family: palatino;
     }
     
     #stylekontaktomunmute{
@@ -546,6 +576,7 @@ body{
         font-size: 30px;
         font-weight: bold;
         margin-top: 5%;
+        font-family: palatino;
     }
 
 
@@ -559,6 +590,7 @@ footer{
     padding-top: 2%;
     padding-bottom: 2%;
     margin-top: 10%;
+    font-family: palatino;
 }
 
 #someSectionone{

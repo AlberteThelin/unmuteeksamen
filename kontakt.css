@@ -69,6 +69,7 @@ list-style:none;
   margin-right: 1rem;
   margin-bottom: 10px;
   width: 100%;
+  font-family: seravek;
 }
 
 .ulmenu.show {
@@ -101,6 +102,7 @@ color: black;
         height: auto;
         border-radius: 15px;
         background-color: #143785;
+        font-family: palatino;
     }
 
     .buttonto {
@@ -113,67 +115,82 @@ color: black;
 /* style til kontaktformular */
 /* skabelonen til hvordan kontakt formularen ser ud, er taget fra et andet projekt*/
 
+
 #kontakttext{
-    font-size: 25px;
-    text-align: center;
+  font-size: 25px;
+  text-align: center;
+  font-family: seravek;
+ 
 }
 
 #kontakttextunder{
-    margin-top: -21px;
-    font-size: 15px;
-    text-align: center;
+  margin-top: -21px;
+  font-size: 15px;
+  text-align: center;
+  font-family: palatino;
+  font-weight: normal;
 }
 
 #kontaktexttre{
-    margin-top: -5%;
-    font-size: 13px;
-    text-align: center;
+  margin-top: -5%;
+  font-size: 13px;
+  text-align: center;
+  font-family: palatino;
+  font-weight: normal;
 
 }
 
 .kontaktsection{
-    background-color: #C2DCF2;
-    padding: 5%;
-    margin-top: 10% !important;
-    margin: 5%;
-    border-radius: 7px;
-    border: solid black;
-    border-width: 2px;
-  }
+  background-color: #C2DCF2;
+  padding: 5%;
+  margin-top: 10% !important;
+  margin: 5%;
+  border-radius: 7px;
+  border: solid black;
+  border-width: 2px;
+}
 
 .contactForm{
-    display: flex;
-    flex-direction: column;
-    font-family: Cormorant;
-    font-size: 20px;
-  }
+  display: flex;
+  flex-direction: column;
+  font-family: palatino;
+  font-size: 20px;
+}
 
-  .contactForm label{
-    margin-top: 5%; 
-  }
+.contactForm label{
+  margin-top: 5%; 
+}
+
+.contactForm input{
+  height: 7vw; 
+  border-radius: 7px;
+  border-color: black;
+  border-width: 1px;
+  background-color: #f2f2f2;
+}
+.contactForm textarea{
+  border-radius: 7px;
+  border-color: black;
+  border-width: 1px;
+  background-color: #f2f2f2;
   
-  .contactForm input{
-    height: 7vw; 
-    border-radius: 7px;
-    border-color: black;
-    border-width: 1px;
-  }
-  .contactForm textarea{
-    border-radius: 7px;
-    border-color: black;
-    border-width: 1px;
-    
-  }
-  
-  .contactForm .btn{
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 10%;
-    padding-right: 10%;
-    margin-top: 2%;
-    height: 50px;
-    font-size: 20px;
-  }
+}
+
+.contactForm .btn{
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 5%;
+  height: 50px;
+  font-size: 20px;
+  font-family: palatino;
+  border-radius: 7px;
+  border-color: black;
+  border-width: 1px;
+  background-color: #f2f2f2;
+ 
+}
  
   /* style til footer*/
 
@@ -185,6 +202,7 @@ color: black;
     padding-bottom: 2%;
     margin-top: 10%;
     font-size: 10px;
+    font-family: palatino;
 }
 
 #someSectionone{
@@ -281,6 +299,7 @@ color: black;
         background-color: #e2dede;
         position: absolute;
         z-index: 1;
+        font-family: palatino;
       }
       
     .button1.business {
@@ -288,6 +307,7 @@ color: black;
         background-color: #979393;
         position: absolute;
         margin-left: 110px;
+        font-family: palatino;
       }
 
     .ulmenu {
@@ -307,7 +327,12 @@ color: black;
         font-weight: bold;
         text-decoration: none;
         margin-right: 1rem;
+        font-family: seravek;
 
+    }
+
+    .ulmenu li.kontaktfarve a{
+      color:#143785;
     }
 
     .boxtodesktop {
@@ -322,6 +347,7 @@ color: black;
         border-radius: 15px;
         background-color: #143785;
         margin-top: -0.5%;
+        font-family: palatino;
     }
 
     .buttonto {
@@ -355,79 +381,82 @@ color: black;
 /* style til kontaktformular */
 /* skabelonen til hvordan kontakt formularen ser ud, er taget fra et andet projekt*/
 
-    #kontakttext{
-        font-size: 40px;
-        text-align: center;
-        font-family: seravek;
-    }
-    
-    #kontakttextunder{
-        margin-top: -2%;
-        font-size: 20px;
-        text-align: center;
-        font-family: seravek;
-    }
-    
-    #kontaktexttre{
-        margin-top: -1%;
-        font-size: 18px;
-        text-align: center;
-        font-family: seravek;
-    
-    }
-    
-    .kontaktsection{
-        background-color: #C2DCF2;
-        padding: 5%;
-        margin-top: 5% !important;
-        margin: 5%;
-        border-radius: 7px;
-        border: solid black;
-        border-width: 2px;
-        width: 70%;
-        margin-left: 10%;
-  
-      }
-    
-    .contactForm{
-        display: flex;
-        flex-direction: column;
-        font-family: palatino;
-        font-size: 20px;
-      }
-    
-      .contactForm label{
-        margin-top: 5%; 
-      }
-      
-      .contactForm input{
-        height: 7vw; 
-        border-radius: 7px;
-        border-color: black;
-        border-width: 1px;
+#kontakttext{
+  font-size: 40px;
+  text-align: center;
+  font-family: seravek;
+}
 
-      }
-      .contactForm textarea{
-        border-radius: 7px;
-        border-color: black;
-        border-width: 1px;
+#kontakttextunder{
+  margin-top: -2%;
+  font-size: 20px;
+  text-align: center;
+  font-family: palatino;
+  font-weight: normal;
+}
 
-        
-      }
-      
-      .contactForm .btn{
-     
-        margin-top: 4%;
-        height: 50px;
-        font-size: 25px;
-        font-family: palatino;
-        width: 15%;
-        margin-left: auto;
-        margin-right: auto;
-    
-      
+#kontaktexttre{
+  margin-top: -1%;
+  font-size: 20px;
+  text-align: center;
+  font-family: palatino;
+  font-weight: normal;
 
-      }
+}
+
+.kontaktsection{
+  background-color: #C2DCF2;
+  padding: 5%;
+  margin-top: 10% !important;
+  margin: 5%;
+  border-radius: 7px;
+  border: solid black;
+  border-width: 2px;
+}
+
+.contactForm{
+  display: flex;
+  flex-direction: column;
+  font-family: palatino;
+  font-size: 20px;
+  margin-left: 5%;
+}
+
+.contactForm label{
+  margin-top: 5%; 
+}
+
+.contactForm input{
+  border-radius: 7px;
+  border-color: black;
+  border-width: 1px;
+  width: 70vw;
+  height: 5vw;
+  background-color: #f2f2f2;
+
+}
+.contactForm textarea{
+  border-radius: 7px;
+  border-color: black;
+  border-width: 1px;
+  background-color: #f2f2f2;
+}
+
+.contactForm .btn{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  height: 60px;
+  font-size: 30px;
+  font-family: palatino;
+  border-radius: 7px;
+  border-color: black;
+  border-width: 1px;
+  background-color: #f2f2f2;
+  width: 15%;
+ 
+}
+
       
 
 /* style til footer*/
@@ -440,6 +469,7 @@ color: black;
         padding-top: 2%;
         padding-bottom: 2%;
         margin-top: 10%;
+        font-family: palatino;
     }
     
     #someSectionone{

@@ -65,6 +65,7 @@ body{
         margin-right: 1rem;
         margin-bottom: 10px;
         width: 100%;
+        font-family: seravek;
     }
 
     .ulmenu.show {
@@ -104,7 +105,10 @@ body{
         color: #fff;
         font-weight: bold;
         text-decoration: none;
+        font-family: palatino;
     }
+
+
 
     
  /* style til forsidebillede + tekst */
@@ -122,6 +126,7 @@ body{
         margin-bottom: 100px;
         color: #fff;
         margin-top: -10%;
+        font-family: seravek;
        
 
     }
@@ -136,11 +141,13 @@ body{
          font-size: 20px;
          text-align: center;
          margin-bottom: -10px;
+         font-family: seravek;
      }
  
      .undertext{
         font-size: 10px;
         text-align: center;
+        font-family: palatino;
 
     }
 
@@ -150,10 +157,11 @@ body{
         align-items: center;
         margin-left: 38%;
         padding: 5px;
-        width: 80px;
-        height: 30px;
+        width: 90px;
+        height: 20px;
         border-radius: 8px;
         background-color: #143785;
+        font-family: palatino;
     }
 
     #stylebtn{
@@ -173,6 +181,8 @@ body{
 
     #instagramsection h2{
         font-size: 15px;
+        font-family: palatino;
+        font-weight: normal;
     }
 
 
@@ -227,7 +237,7 @@ body{
         margin-left: 32%;
         padding: 5px;
         width: 120px;
-        height: 30px;
+        height: 29px;
         border-radius: 8px;
         background-color: #143785;
         color: white;
@@ -235,6 +245,7 @@ body{
         font-size: 15px;
         font-weight: bold;
         margin-top: 5%;
+        font-family: palatino;
 
     
 
@@ -293,6 +304,8 @@ body{
     margin-top: 5%;
     text-align: center;
     font-size: 15px;
+    font-family: palatino;
+    font-weight: normal;
 }
 
 /* style til kontakt section*/
@@ -302,18 +315,24 @@ body{
 #kontakttext{
     font-size: 25px;
     text-align: center;
+    font-family: seravek;
+   
 }
 
 #kontakttextunder{
     margin-top: -21px;
     font-size: 15px;
     text-align: center;
+    font-family: palatino;
+    font-weight: normal;
 }
 
 #kontaktexttre{
     margin-top: -5%;
     font-size: 13px;
     text-align: center;
+    font-family: palatino;
+    font-weight: normal;
 
 }
 
@@ -330,7 +349,7 @@ body{
 .contactForm{
     display: flex;
     flex-direction: column;
-    font-family: Cormorant;
+    font-family: palatino;
     font-size: 20px;
   }
 
@@ -343,11 +362,13 @@ body{
     border-radius: 7px;
     border-color: black;
     border-width: 1px;
+    background-color: #f2f2f2;
   }
   .contactForm textarea{
     border-radius: 7px;
     border-color: black;
     border-width: 1px;
+    background-color: #f2f2f2;
     
   }
   
@@ -356,9 +377,15 @@ body{
     margin-right: auto;
     padding-left: 10%;
     padding-right: 10%;
-    margin-top: 2%;
+    margin-top: 5%;
     height: 50px;
     font-size: 20px;
+    font-family: palatino;
+    border-radius: 7px;
+    border-color: black;
+    border-width: 1px;
+    background-color: #f2f2f2;
+   
   }
  
 /* style til footeren*/
@@ -371,6 +398,7 @@ body{
         padding-bottom: 2%;
         margin-top: 10%;
         font-size: 10px;
+        font-family: palatino;
     }
     
     #someSectionone{
@@ -468,6 +496,7 @@ body{
         background-color: #e2dede;
         position: absolute;
         z-index: 1;
+        font-family: palatino;
       }
       
     .button1.business {
@@ -475,6 +504,7 @@ body{
         background-color: #979393;
         position: absolute;
         margin-left: 110px;
+        font-family: palatino;
       }
 
     .ulmenu {
@@ -494,7 +524,12 @@ body{
         font-weight: bold;
         text-decoration: none;
         margin-right: 1rem;
+        font-family: seravek;
 
+    }
+
+    .ulmenu li.forsidefarve a{
+        color: #143785;
     }
 
     .boxtodesktop {
@@ -509,6 +544,7 @@ body{
         border-radius: 15px;
         background-color: #143785;
         margin-top: -0.5%;
+        font-family: palatino;
     }
 
        /* drop down menu styling */
@@ -531,6 +567,10 @@ body{
     
     .dropdowninspiration:hover .dropdownsucces {
         display: block;
+    }
+
+    .forsidefarve{
+        color:#143785 ;
     }
 
     /* style til forsidebillede + tekst */
@@ -556,6 +596,7 @@ body{
         transform: translate(-50%, -50%);
         font-size: 70px;
         color: #fff;
+        font-family: seravek;
 
     }
   
@@ -565,11 +606,13 @@ body{
         font-size: 80px;
         text-align: center;
         margin-bottom: -25px;
+        font-family: seravek;
     }
 
     .undertext{
        font-size: 30px;
        text-align: center;
+       font-family: palatino;
   
        
 
@@ -585,6 +628,7 @@ body{
         border-radius: 15px;
         background-color: #143785;
         margin-left: 44%;
+        font-family: palatino;
     }
 
     #stylebtn{
@@ -600,6 +644,9 @@ body{
     #instagramsection{
         text-align: center;
         margin-top: 15%;
+        font-family: palatino;
+        font-size: 20px;
+        font-style: normal;
     }
 
 
@@ -610,6 +657,7 @@ body{
     margin-bottom: 0%;
     width: 8vw;
     height: 8vw;
+    margin-bottom: 3%;
 }
 
 .alignpics{
@@ -652,9 +700,10 @@ body{
         background-color: #143785;
         color: white;
         text-decoration: none;
-        font-size: 22px;
+        font-size: 23px;
         font-weight: bold;
         margin-top: 35px;
+        font-family: palatino;
 
 }
 
@@ -707,7 +756,9 @@ body{
 .baeretext{
     margin-top: 5%;
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
+    font-family: palatino;
+    font-weight: normal;
 }
 
 /* style til kontakt section*/
@@ -716,18 +767,23 @@ body{
 #kontakttext{
     font-size: 40px;
     text-align: center;
+    font-family: seravek;
 }
 
 #kontakttextunder{
     margin-top: -2%;
     font-size: 20px;
     text-align: center;
+    font-family: palatino;
+    font-weight: normal;
 }
 
 #kontaktexttre{
     margin-top: -1%;
     font-size: 20px;
     text-align: center;
+    font-family: palatino;
+    font-weight: normal;
 
 }
 
@@ -744,8 +800,9 @@ body{
 .contactForm{
     display: flex;
     flex-direction: column;
-    font-family: Cormorant;
+    font-family: palatino;
     font-size: 20px;
+    margin-left: 5%;
   }
 
   .contactForm label{
@@ -753,26 +810,34 @@ body{
   }
   
   .contactForm input{
-    height: 7vw; 
     border-radius: 7px;
     border-color: black;
     border-width: 1px;
+    width: 70vw;
+    height: 5vw;
+    background-color: #f2f2f2;
+
   }
   .contactForm textarea{
     border-radius: 7px;
     border-color: black;
     border-width: 1px;
-    
+    background-color: #f2f2f2;
   }
   
   .contactForm .btn{
     margin-left: auto;
     margin-right: auto;
-    padding-left: 10%;
-    padding-right: 10%;
     margin-top: 2%;
-    height: 50px;
-    font-size: 20px;
+    height: 60px;
+    font-size: 30px;
+    font-family: palatino;
+    border-radius: 7px;
+    border-color: black;
+    border-width: 1px;
+    background-color: #f2f2f2;
+    width: 15%;
+   
   }
 
   /* style til footeren*/
@@ -785,6 +850,7 @@ footer{
     padding-top: 2%;
     padding-bottom: 2%;
     margin-top: 10%;
+    font-family: palatino;
 }
 
 #someSectionone{

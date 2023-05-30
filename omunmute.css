@@ -68,6 +68,7 @@ body{
         margin-right: 1rem;
         margin-bottom: 10px;
         width: 100%;
+        font-family: seravek;
     }
 
     .ulmenu.show {
@@ -103,6 +104,7 @@ body{
         height: auto;
         border-radius: 15px;
         background-color: #143785;
+        font-family: palatino;
     }
 
     .buttonto {
@@ -131,6 +133,7 @@ body{
         font-size: 20px;
         margin-top: -50%;
         color: #fff;
+        font-family: seravek;
        
 
     }
@@ -154,12 +157,14 @@ body{
         font-size: 20px;
         margin-bottom: 100%;
         margin-left: 5%;
+        font-family: seravek;
     }
     .firstsectionomunmute p{
         width: 60%;
-        font-size: 10px;
+        font-size: 9px;
         margin-left: -35%;
         margin-top: -45%;
+        font-family: palatino;
     
     }
 
@@ -169,12 +174,13 @@ body{
         justify-content: center;
         align-items: center;
         padding: 5px;
-        width: 120px;
+        width: 130px;
         height: 30px;
         border-radius: 8px;
         background-color: #143785;
         margin-top: -60%;
         margin-left: 4%;
+        font-family: palatino;
 
     }
 
@@ -205,13 +211,15 @@ body{
         margin-bottom: 45%;
      margin-top: 15%;
         margin-left: 2%;
+        font-family: seravek;
     }
 
     .secondsectionomunmute p{
-        margin-top: 10%;
+        margin-top: 15%;
         font-size: 10px;
-        margin-left: -21%;
+        margin-left: -22%;
         padding-right: 5%;
+        font-family: palatino;
 
     }
     
@@ -232,6 +240,7 @@ body{
     background-color: #143785;
     margin-left: 62%;
     margin-top: -7%;
+    font-family: palatino;
     
    }
     
@@ -241,6 +250,7 @@ body{
     text-align: center;
     font-size: 30px;
     margin-top: 20%;
+    font-family: seravek;
 }
 
 .sectiontreomunmute p{
@@ -249,6 +259,7 @@ body{
     padding-left: 15%;
     font-size: 15px;
     margin-top: -5%;
+    font-family: palatino;
 }
 
 .buttonkontakt{
@@ -261,6 +272,7 @@ body{
     border-radius: 8px;
     background-color: #143785;
    margin-left: 33%;
+   font-family: palatino;
   
     
 }
@@ -284,6 +296,7 @@ body{
         padding-bottom: 2%;
         margin-top: 10%;
         font-size: 10px;
+        font-family: palatino;
     }
     
     #someSectionone{
@@ -381,6 +394,7 @@ body{
         background-color: #e2dede;
         position: absolute;
         z-index: 1;
+        font-family: palatino;
       }
       
     .button1.business {
@@ -388,6 +402,7 @@ body{
         background-color: #979393;
         position: absolute;
         margin-left: 110px;
+        font-family: palatino;
       }
 
     .ulmenu {
@@ -407,7 +422,12 @@ body{
         font-weight: bold;
         text-decoration: none;
         margin-right: 1rem;
+        font-family: seravek;
 
+    }
+
+    .ulmenu li a.om-unmute{
+        color:#143785;
     }
 
     .boxtodesktop {
@@ -422,6 +442,7 @@ body{
         border-radius: 15px;
         background-color: #143785;
         margin-top: -0.3%;
+        font-family: palatino;
     }
 
     .buttonto{
@@ -468,6 +489,7 @@ body{
         color: #fff;
         text-align: center;
         margin-top: -50%;
+        font-family: seravek;
        
 
     }
@@ -483,7 +505,6 @@ body{
         display: flex;
         flex-direction: row;
         align-items: center;
-        
     }
 
     .firstomunmute{
@@ -491,6 +512,7 @@ body{
         font-size: 50px;
         margin-bottom: 20%;
        margin-top: 4%;
+       font-family: seravek;
     }
     .firstsectionomunmute p{
         margin-top: 8%;
@@ -498,6 +520,7 @@ body{
         margin-left: -17%;
         font-size: 25px;
         padding-right: 15%;
+        font-family: palatino;
     
     }
 
@@ -510,13 +533,14 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 45%;
+        margin-left: 46%;
         padding: 15px;
-        width: 180px;
+        width: 190px;
         height: 30px;
         border-radius: 8px;
         background-color: #143785;
         margin-top: -7%;
+        font-family: palatino;
 
     }
 
@@ -543,6 +567,7 @@ body{
         font-size: 50px;
         margin-bottom: 23%;
         margin-top: 8%;
+        font-family: seravek;
     }
 
     .secondsectionomunmute p{
@@ -551,6 +576,7 @@ body{
         margin-left: -13%;
         font-size: 25px;
         padding-right: 15%;
+        font-family: palatino;
     }
     
     .jbun{
@@ -569,6 +595,7 @@ body{
     background-color: #143785;
    margin-top: -5%;
     margin-left: 10%;
+    font-family: palatino;
     
    }
 
@@ -578,6 +605,7 @@ body{
         text-align: center;
         font-size: 50px;
         margin-top: 10%;
+        font-family: seravek
     }
 
     .sectiontreomunmute p{
@@ -586,6 +614,7 @@ body{
         padding-left: 15%;
         font-size: 40px;
         margin-top: -2%;
+        font-family: palatino;
     }
 
     #stylekontaktomunmute{
@@ -602,6 +631,7 @@ body{
         text-decoration: none;
         font-size: 25px;
         font-weight: bold;
+        font-family: palatino;
     }
 
 
@@ -615,6 +645,7 @@ body{
         padding-top: 2%;
         padding-bottom: 2%;
         margin-top: 10%;
+        font-family: palatino;
     }
     
     #someSectionone{

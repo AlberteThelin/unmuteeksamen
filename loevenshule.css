@@ -67,6 +67,7 @@ body{
         margin-right: 1rem;
         margin-bottom: 10px;
         width: 100%;
+        font-family: seravek;
     }
 
     .ulmenu.show {
@@ -99,6 +100,7 @@ body{
         height: auto;
         border-radius: 15px;
         background-color: #143785;
+        font-family: palatino;
     }
 
     .buttonto {
@@ -113,6 +115,7 @@ body{
     .loevenshuleover h1{
         text-align: center;
         font-size: 40px;
+        font-family: seravek;
 
     }
 
@@ -123,6 +126,7 @@ body{
     .loevenshuleover p{
         text-align: center;
         font-size: 15px;
+        font-family: palatino;
 
     }
 
@@ -133,7 +137,7 @@ body{
         justify-content: center;
         align-items: center;
         padding: 5px;
-        width: 150px;
+        width: 160px;
         height: 30px;
         border-radius: 10px;
         background-color: #143785;
@@ -143,6 +147,7 @@ body{
         font-size: 18px;
         margin-left: 26%;
         margin-top: 10%;
+        font-family: palatino;
     }
 
    /* style til footer */ 
@@ -155,6 +160,7 @@ body{
         padding-bottom: 2%;
         margin-top: 10%;
         font-size: 10px;
+        font-family: palatino;
         
     }
     
@@ -253,6 +259,7 @@ body{
         background-color: #e2dede;
         position: absolute;
         z-index: 1;
+        font-family: palatino;
       }
       
     .button1.business {
@@ -260,6 +267,7 @@ body{
         background-color: #979393;
         position: absolute;
         margin-left: 110px;
+        font-family: palatino;
       }
 
     .ulmenu {
@@ -279,6 +287,7 @@ body{
         font-weight: bold;
         text-decoration: none;
         margin-right: 1rem;
+        font-family: seravek;
 
     }
 
@@ -294,6 +303,7 @@ body{
         border-radius: 15px;
         background-color: #143785;
         margin-top: -0.5%;
+        font-family: palatino;
         
     }
 
@@ -331,7 +341,8 @@ body{
 
     .loevenshuleover h1{
         text-align:center ;
-        font-size: 70px;
+        font-size: 90px;
+        font-family: seravek;
     }
 
     #huleforsidebillede{
@@ -346,6 +357,7 @@ body{
         font-size: 30px;
         padding-right: 25%;
         padding-left: 25%;
+        font-family: palatino;
     }
 
 
@@ -358,7 +370,7 @@ body{
         margin-left: 43%;
         margin-right: 25px;
         padding: 5px;
-        width: 200px;
+        width: 210px;
         height: 50px;
         border-radius: 15px;
         background-color: #143785;
@@ -366,6 +378,7 @@ body{
         color: white;
         font-weight: bold;
         font-size: 22px;
+        font-family: palatino;
     }
 
 
@@ -378,6 +391,7 @@ body{
         padding-top: 2%;
         padding-bottom: 2%;
         margin-top: 10%;
+        font-family: palatino;
     }
     
     #someSectionone{
