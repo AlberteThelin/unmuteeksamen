@@ -1,3 +1,6 @@
+
+// Skabelonen til dette JavaScript er taget fra et tidligere projekt
+
 function openAnswer(id){
 
     var answer = document.getElementById("answer" + id); // + id betyder at man kan vælge hvilket spørgsmål man trykker på
